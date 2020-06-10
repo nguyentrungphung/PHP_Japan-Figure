@@ -1,8 +1,8 @@
 # PHP_Japan-Figure
 Website mô hình nhật bản
-Nguyễn Trung Phụng
+1. Nguyễn Trung Phụng
     -- Back end 
-Cầm Bá Mão
+2. Cầm Bá Mão
     -- Back end 
-Kiều Nhất Thống
+3. Kiều Nhất Thống
     -- Giao diện website
