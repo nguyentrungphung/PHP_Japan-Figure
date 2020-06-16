@@ -1,0 +1,454 @@
+@media screen and (min-width: 990px) {
+
+    #social-network{
+        width: 35%;
+    }
+
+    #login-area{
+        width: 64%;
+        text-align: right;
+    }
+
+    #login-area input{
+        margin-right: 5px;
+    }
+
+    #login-area a{
+        padding-right: 25px; 
+    }
+ 
+
+    #master-header .container div{
+        display: inline-block;
+    }
+
+    #lookup-area {
+        width: 29%;
+    }
+
+    #logo-area{
+        width: 40%;
+    }
+
+    #cart-area{
+        width: 29%;
+    }
+
+
+
+    #content-index{
+        margin-bottom: 50px;
+    }
+
+    #content-index div.product-area{
+        margin: 100px 0;
+    }
+    
+    .box-product{
+        width: 19.59%;
+        height: 327px;
+    }
+
+    .box-product a.product-img-area{
+        height: 265px;
+    }
+
+    .box-product img{
+        max-width: 100%;
+        min-height: 200px;
+        height: 200px;
+    }
+    
+    .box-product p{
+        font-size: 17px;
+        max-height: 65px;
+        padding: 0 5px;
+    }
+
+    .box-product span{
+        font-size: 22px;
+    }
+
+    .box-product del{
+        font-size: 15px;
+    }
+
+    .box-product .price-product{
+        height: 50px;
+    }
+
+    .box-product a.add-cart
+    {
+        top: 200px;
+        padding: 25px 0;
+    }
+
+
+    
+
+
+ 
+    div.check-box{
+        width: 16.66%;
+    }
+
+}
+
+@media screen and (min-width: 770px) and (max-width: 989px) {
+
+    #social-network{
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    #login-area{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    #login-area input{
+        margin-right: 5px;
+    }
+
+    #login-area a{
+        padding-right: 25px; 
+    }
+ 
+    #master-header .container div{
+        display: inline-block;
+    }
+
+    #lookup-area {
+        width: 29%;
+    }
+
+    #lookup-area input[type='text']{
+        width: 52%;
+    }
+
+    #logo-area{
+        width: 40%;
+    }
+
+    #cart-area{
+        width: 29%;
+    }
+
+
+    #menu ul li a{
+        font-size: 14px;
+    }
+
+    #content-index{
+        margin-bottom: 30px;
+    }
+
+    #content-index div.product-area{
+        margin: 75px 0;
+    }
+    
+    .box-product{
+        width: 24.54%;
+        height: 327px;
+    }
+
+    .box-product a.product-img-area{
+        height: 265px;
+    }
+
+    .box-product img{
+        max-width: 100%;
+        min-height: 200px;
+        height: 200px;
+    }
+    
+    .box-product p{
+        font-size: 17px;
+        max-height: 65px;
+        padding: 0 5px;
+    }
+
+    .box-product span{
+        font-size: 22px;
+    }
+
+    .box-product del{
+        font-size: 15px;
+    }
+
+    .box-product .price-product{
+        height: 50px;
+    }
+
+    .box-product a.add-cart
+    {
+        top: 200px;
+        padding: 25px 0;
+    }
+
+    div.check-box{
+        width: 20%;
+    }
+
+}
+
+@media screen and (min-width: 500px)  and (max-width: 769px) {
+
+
+    #social-network{
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    #login-area{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    #login-area input{
+        max-width: 25%;
+    }
+
+    #login-area input[type='submit'], #login-area input[type='button']{
+        max-width: 20%;
+        padding: 3px;
+    }
+
+    #login-area input{
+        font-size: 13px;
+    }
+
+    #login-area a{
+        padding-right: 25px; 
+    }
+ 
+    #master-header .container div{
+        float: left;
+        margin: 10px 0;
+    }
+
+    #lookup-area {  
+        width: 50%;
+    }
+
+
+    #master-header .container div input, #master-header .container div button{
+        font-size: 12px;
+        padding: 5px 5px;
+        max-width: 50%;
+        margin-top: 30%; 
+    }
+    
+
+    #logo-area{
+        margin: 0 auto;
+        position: absolute;
+        width: 50%;
+        left: 25%;
+    }
+    #cart-area{
+        margin-top: 50px;
+        width: 50%;
+    }
+
+
+
+
+    #menu ul li a{
+        font-size: 14px;
+    }
+
+
+    #content-index{
+        margin-bottom: 25px;
+    }
+
+    #content-index div.product-area{
+        margin: 50px 0;
+    }
+    
+    .box-product{
+        width: 32.64%;
+        height: 220px;
+    }
+
+    .box-product a.product-img-area{
+        height: 175px;
+    }
+
+    .box-product img{
+        max-width: 100%;
+        min-height: 110px;
+        height: 110px;
+    }
+    
+    .box-product p{
+        font-size: 14px;
+        max-height: 56px;
+        padding: 0 5px;
+    }
+
+    .box-product span{
+        font-size: 18px;
+    }
+
+    .box-product del{
+        font-size: 13px;
+    }
+
+    .box-product .price-product{
+        height: 45px;
+    }
+
+    .box-product a.add-cart
+    {
+        top: 115px;
+        padding: 20px 0;
+    }
+
+    
+    div.check-box{
+        width: 25%;
+    }
+
+
+    
+    #info-cart .stt{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 499px) {
+
+
+    #social-network{
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    #login-area{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    #login-area input{
+        width: 40%;
+    }
+
+ 
+    #master-header .container div{
+        float: left;
+        margin-top: 10px;
+    }
+
+    #lookup-area {  
+        width: 100%;
+    }
+
+
+    #master-header .container div input{
+        padding: 5px 5px;
+        margin-top: 15%; 
+    }
+    
+
+    #logo-area{
+        margin: 0 auto;
+        position: absolute;
+        width: 50%;
+        left: 25%;
+    }
+    #cart-area{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+    #menu ul li a{
+        font-size: 13px;
+    }
+
+
+    #content-index{
+        margin-bottom: 15px;
+    }
+
+    #content-index div.product-area{
+        margin: 20px 0;
+    }
+    
+    .box-product{
+        width: 49.18%;
+        height: 220px;
+    }
+
+    .box-product a.product-img-area{
+        height: 175px;
+    }
+
+    .box-product img{
+        max-width: 100%;
+        min-height: 110px;
+        height: 110px;
+    }
+    
+    .box-product p{
+        font-size: 14px;
+        max-height: 56px;
+        padding: 0 5px;
+    }
+
+    .box-product span{
+        font-size: 18px;
+    }
+
+    .box-product del{
+        font-size: 13px;
+    }
+
+    .box-product .price-product{
+        height: 45px;
+    }
+
+    .box-product a.add-cart
+    {
+        top: 115px;
+        padding: 20px 0;
+    }
+
+
+    #info-footer .container span{
+        display: block;;
+    }
+
+    #go-head-foot i {
+        font-size: 30px;
+    }
+
+    
+    div.check-box{
+        width: 50%;
+    }
+
+
+
+
+    #info-cart .hinhsp{
+        display: none;
+    }
+    #info-cart .dongia{
+        display: none;
+    }
+    #info-cart .stt{
+        display: none;
+    }
+}

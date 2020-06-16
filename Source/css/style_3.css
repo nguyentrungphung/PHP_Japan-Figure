@@ -1,0 +1,279 @@
+﻿/*
+Định dạng trang Đăng kí
+*/
+
+#register {
+    font-family: Verdana;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+
+
+}
+
+
+#frmregis {
+    margin: 4% auto;
+    max-width: 600px;
+    min-height: 10%;
+    border: 1px outset darkgrey;
+
+    padding: 4% 2% 0% 2%;
+}
+
+#frmregis img {
+    height: 1.5em;
+    width: 1.5em;
+    float: left;
+    padding: 0.5em;
+    margin: 0em;
+    opacity: 0.3;
+}
+
+#frmregis div {
+    clear: both;
+    height: 2.5em;
+    border: 0.1em solid darkgrey;
+    margin-bottom: 1em;
+
+}
+
+#frmregis input {
+    float: right;
+    padding: 1em;
+    font-size: 1em;
+    height: 0.5em;
+    width: 70%;
+    border: none;
+
+}
+
+::placeholder {
+    color: darkgrey;
+    opacity: 0.5;
+    font-size: 1em;
+}
+
+#frmregis a {
+    text-decoration: none;
+    color: red;
+    float: left;
+    font-size: 1em;
+}
+
+div #notborder {
+    border: hidden;
+}
+
+#frmregis div:last-child {
+    margin: 0em;
+    padding: 0em;
+    color: white;
+}
+
+#frmregis input[type='submit'] {
+    width: 100%;
+    display: block;
+    background-color: orangered;
+    padding: 0.4em 1em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #FFF;
+    margin: 0vw;
+    cursor: pointer;
+    height: 3em;
+    border: hidden;
+    margin-bottom: 3em;
+}
+
+#frmregis input[type='submit']:hover {
+    background-color: orange;
+}
+
+#frmregis a:hover {
+    color: #dd6633;
+}
+
+
+
+
+
+
+
+
+
+
+/* css quản lý admin */
+#table-quanly{
+    width: 100%;
+}
+
+
+#table-menu td{
+    padding: 2px 15px;
+}
+#table-menu{
+    width: 100%;
+    text-align: right;
+    margin-bottom: 50px;
+}
+#table-menu input{
+    padding: 6px;
+    width: 150px;
+    color: gray;
+    background: #eee;
+    border: 1px solid black;
+    transition: 1s;
+}
+#table-menu input:hover{
+    color: #eee;
+    background: #fc3318;
+}
+#table-menu input[type='text']{
+    width: 304px;
+    color: #000;;
+    background: #FFF;
+    border: 1px solid black;
+}
+#table-menu input[type='button']{
+    width: 150px;
+}
+
+
+#table-list
+{
+    width: 100%;
+    border: 1px solid #fc3318;
+
+    text-align: center;
+}
+#table-list form
+{
+    font-size: 0;
+}
+#table-list th
+{
+    padding: 10px;
+    background: #fc3318;
+    color: #eee;
+    position: sticky;
+}
+#table-list .stt
+{
+    width: 5px;
+}
+#table-list input, #table-list select
+{
+    border: none;
+    padding: 7px 3%;
+    width: 90%;
+}
+#table-list input[type='submit']
+{
+    width: 100%;
+    margin: 0;
+    border: none;
+    color: #000;
+    transition: 1s;
+}
+#table-list input[type='submit']:hover
+{
+    background: #eeeeee;
+    color: #eee;
+}
+
+td.hinhsp{
+    margin: 0px;
+    padding: 0px;
+}
+
+td.hinhsp img{
+    width: 200px;
+    height:  160px;
+    margin: 0px -13px -4px -12px;
+}
+a.chitietsanpham:hover
+{
+    color: red;
+}
+
+
+
+
+
+/*Quản Lý Sản Phảm - Admin*/
+#frmAddSanPham
+{
+    position: relative;
+    padding: 10px;
+    width: 650px;
+    margin: 10px auto;
+    border: 1.5px solid #fc3318;
+}
+#frmAddSanPham input,#frmAddSanPham select,#frmAddSanPham textarea,#frmAddSanPham span
+{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+#frmAddSanPham input[type='file']
+{
+    padding: 5px 0;
+}
+
+#frmAddSanPham input[type='submit']
+{
+    margin-top: 5px;
+    padding: 5px 0;
+    width: 90px;
+    color: #eeeeee;
+    transition: 1s;
+}
+
+#frmAddSanPham input[type='submit']:hover
+{
+    background: #eeeeee;
+    color: #eee;
+}
+
+#idUpAnhSanPham
+{
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+}
+#INFO_SP
+{
+    width: 400px;
+    display: inline-block;
+}
+#INFO_SP span{
+    vertical-align: top;
+    width: 110px;
+    text-align: right;
+}
+#INFO_SP input, #INFO_SP select, #INFO_SP textarea{
+    width: 260px;
+}
+#chucnang-area{
+    text-align: right;
+}
+
+/*Quản lý tải khoản*/
+#idDataInfoTK #frmregis
+{
+    width: 400px ;
+}
+
+#idDataInfoTK #frmregis input[type="submit"]
+{
+    padding: 0px;
+    margin: 0px;
+}
+#frmregis select{
+    width: 100%;
+    height: 100%;
+}
